@@ -1,3 +1,3 @@
 CircularLoadingProgressView
 =======
-这是个
+**一个仿照微信朋友圈视频加载动画**
