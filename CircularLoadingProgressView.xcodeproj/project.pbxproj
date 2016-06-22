@@ -15,6 +15,7 @@
 		7D1F31611D1A65DA009D1E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1F315F1D1A65DA009D1E8F /* LaunchScreen.storyboard */; };
 		7D1F316C1D1A65DA009D1E8F /* CircularLoadingProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F316B1D1A65DA009D1E8F /* CircularLoadingProgressViewTests.m */; };
 		7D1F31771D1A65DA009D1E8F /* CircularLoadingProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F31761D1A65DA009D1E8F /* CircularLoadingProgressViewUITests.m */; };
+		7D1F31891D1A6FC9009D1E8F /* XCLoadingProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F31881D1A6FC9009D1E8F /* XCLoadingProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7D1F31721D1A65DA009D1E8F /* CircularLoadingProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularLoadingProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1F31761D1A65DA009D1E8F /* CircularLoadingProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularLoadingProgressViewUITests.m; sourceTree = "<group>"; };
 		7D1F31781D1A65DA009D1E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D1F31871D1A6FC9009D1E8F /* XCLoadingProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCLoadingProgressView.h; sourceTree = "<group>"; };
+		7D1F31881D1A6FC9009D1E8F /* XCLoadingProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCLoadingProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		7D1F31501D1A65D9009D1E8F /* CircularLoadingProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				7D1F31871D1A6FC9009D1E8F /* XCLoadingProgressView.h */,
+				7D1F31881D1A6FC9009D1E8F /* XCLoadingProgressView.m */,
 				7D1F31541D1A65D9009D1E8F /* AppDelegate.h */,
 				7D1F31551D1A65D9009D1E8F /* AppDelegate.m */,
 				7D1F31571D1A65D9009D1E8F /* ViewController.h */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D1F31591D1A65D9009D1E8F /* ViewController.m in Sources */,
+				7D1F31891D1A6FC9009D1E8F /* XCLoadingProgressView.m in Sources */,
 				7D1F31561D1A65D9009D1E8F /* AppDelegate.m in Sources */,
 				7D1F31531D1A65D9009D1E8F /* main.m in Sources */,
 			);
